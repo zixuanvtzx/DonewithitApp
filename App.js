@@ -1,11 +1,8 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
-import WelcomeScreen from './app/screens/welcomescreen';
-//safeareaview will make stuff visible only in visible areas, like got padding on the top 
-// flex: 1 = full, 0.5 = half
-
+import React from "react";
+import { View } from "react-native";
+import MCconfirmpage from "./app/screens/MCconfirmpage";
 
 export default function App() {
-  return <WelcomeScreen />;
+  return <MCconfirmpage />;
 }
 
