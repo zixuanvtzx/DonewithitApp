@@ -1,7 +1,7 @@
 import React from 'react';
 import { ImageBackground, StyleSheet, View } from 'react-native-web';
 
-function welcomescreen(props) {
+function WelcomeScreen(props) {
     return (
         <ImageBackground 
         style={styles.background} 
@@ -23,4 +23,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export default welcomescreen;
+export default WelcomeScreen;
